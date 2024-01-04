@@ -1,13 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
-
-module.exports = {
-  darkMode: ['class'],
+export default {
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {
@@ -64,3 +59,4 @@ module.exports = {
   },
   plugins: [require('tailwindcss-animate')],
 };
+
