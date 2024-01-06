@@ -1,8 +1,8 @@
+import React from 'react'
+
 const SigninForm = () => {
-    return(
-        <div>
-          <Button>Click me</Button>
-        </div>
+  return(
+      <div>SigninForm</div>
     )
 }
 
